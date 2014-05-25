@@ -1,0 +1,35 @@
+{
+  "name": "git-download-archive",
+  "version": "0.1.0",
+  "description": "Get a tar/zip archive stream from a git repository (at a certain commit).",
+  "main": "index.js",
+  "dependencies": {
+    "debug": "~0.8.1",
+    "xtend": "~3.0.0",
+    "git-spawned-stream": "~0.1.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.2",
+    "mocha": "~1.19.0",
+    "proxyquire": "~1.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-download-archive"
+  },
+  "keywords": [
+    "git",
+    "archive",
+    "download",
+    "git-archive"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com> (http://careers.stackoverflow.com/alessioalex)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-download-archive/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-download-archive"
+}
